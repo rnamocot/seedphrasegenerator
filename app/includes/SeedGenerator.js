@@ -30,7 +30,7 @@ const SeedGenerator = () => {
   };
 
   return (
-    <div className="p-6 max-w-lg mx-auto bg-white rounded shadow space-y-4">
+    <div className="p-6 max-w-lg mx-auto bg-sky-200 rounded shadow space-y-4 justify-center align-middle">
       <h2 className="text-xl font-bold">Seed Phrase Generator</h2>
 
       <div className="space-x-3">
@@ -72,9 +72,10 @@ const SeedGenerator = () => {
         Generate Seed Phrase
       </button>
 
+
       {seedPhrase && (
         <>
-          <div className="bg-gray-100 p-3 rounded font-mono break-words">
+          <div className="bg-amber-300 p-3 rounded font-mono break-words">
             {seedPhrase}
           </div>
 
